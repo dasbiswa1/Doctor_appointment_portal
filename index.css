@@ -1,0 +1,128 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  bottom: 10px;
+}
+
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: rgb(237, 244, 239);
+  text-decoration: none;
+  font-size: 50px;
+  border-radius: 4px;
+  margin-right: 10px;
+ position: relative;
+}
+
+.btn:hover {
+  background-color: #000000;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #090909;
+  height: 70px;
+}
+
+li {
+  float: left;
+  
+}
+
+li a {
+  display: block;
+  color: rgba(38, 183, 183, 0.995);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+li a:hover {
+  background-color: #f9f3f3;
+}
+
+.logo img {
+  width: 70px;
+  height: 70px;
+  background-color: rgb(249, 247, 247);
+  float: right;
+}  
+#paragraph{
+  color: rgb(0, 0, 0);
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 70px;
+  bottom: 140px;
+}
+h1 {
+  text-shadow: 1px 1px #f4f0f0;
+  font-size: 50px;
+}
+.container1 {
+  position: relative;
+  left: 670px;
+  width: 50%;
+ 
+}
+
+.image {
+  display: block;
+  width: 500px;
+  height: 400px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #020102;
+  overflow: hidden;
+  width: 500px;
+  height: 0px;
+  transition: .5s ease;
+}
+
+.container1:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: rgba(38, 183, 183, 0.995);
+  font-size: 20px;
+  position: relative;
+  left: 670px;    
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+ 
+}
+body{
+  background-image: url("doctor.jpg");
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="appointment.css">
+</head>
+<body>
+    <!--<div class="container">
+        <div id="appointment" class="form-container">
+            <h2>Book an Appointment</h2>
+            <form id="appointment-form">-->
+              <!-- Appointment form fields -->
+              <!--<input type="text" id="patient-name" placeholder="Name" required>
+              <input type="email" id="patient-email" placeholder="Email" required>
+              <input type="text" id="doctor-name" placeholder="Doctor's Name" required>
+              <input type="datetime-local" id="appointment-date" required>
+              <button type="submit">Book Appointment</button>
+            </form>
+        </div>
+        <div id="appointments">
+            <h2>Appointments</h2>
+            <table id="appointments-table">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>Doctor</th>
+                  <th>Date</th>
+                </tr>
+              </thead>
+              <tbody id="appointments-body">-->
+                <!-- Appointments will be dynamically added here -->
+              <!--</tbody>
+            </table>
+        </div>
+    </div>-->
+
+    <div class="container">
+      <h1> <p  style="color: #000000;text-shadow: #0e0101;text-shadow: #230bab; text-align: center;">Welcome to Your Profile</p></h1>
+       <!--<h2>Profile Details</h2>
+       <p><strong>UserName:<strong> JohnDoe@123</p>
+       <p><strong>Email Id:</strong> JohnDoe@gmail.com</p>
+       <p><strong>Name:</strong></strong> John Doe</p>-->
+       <h2>Previous Appointments</h2>
+       <table id="previousAppointments">
+           <thead>
+               <tr>
+                   <th>Date</th>
+                   <th>Time</th>
+                   <th>Doctor</th>
+                   <th>Specialty</th>
+               </tr>
+           </thead>
+           <tbody>
+               <tr>
+                   <td>2023-05-01</td>
+                   <td>10:00 AM</td>
+                   <td>Dr. Smith</td>
+                   <td>Cardiology</td>
+               </tr>
+               <tr>
+                   <td>2023-04-15</td>
+                   <td>2:30 PM</td>
+                   <td>Dr. Johnson</td>
+                   <td>Dermatology</td>
+               </tr>
+           </tbody>
+       </table>
+      <h1> <button onclick="toggleRegistrationForm()"><h3>New Appointment Registration</h3></button></h1>
+       <div class="registration-form">
+           <h2 class="form-title">New Appointment Registration</h2>
+           <form onsubmit="registerAppointment(event)">
+               <div class="form-group">
+                   <label for="doctors">Doctors:</label><br>
+                   <input type="radio" id="doctor1" name="doctors" value="Dr. Smith" checked>
+                   <label for="doctor1">Dr. Smith</label><br>
+                   <input type="radio" id="doctor2" name="doctors" value="Dr. Johnson">
+                   <label for="doctor2">Dr. Johnson</label><br>
+                   <input type="radio" id="doctor3" name="doctors" value="Dr. Anderson">
+                   <label for="doctor3">Dr. Anderson</label><br>
+                   <input type="radio" id="doctor4" name="doctors" value="General Purpose Doctor">
+                   <label for="doctor4">General Purpose Doctor</label><br>
+               </div>
+               <div class="form-group">
+                   <label for="departments">Departments:</label><br>
+                   <input type="checkbox" id="department1" name="departments" value="Cardiology">
+                   <label for="department1">Cardiology</label><br>
+                   <input type="checkbox" id="department2" name="departments" value="Dermatology">
+                   <label for="department2">Dermatology</label><br>
+                   <input type="checkbox" id="department3" name="departments" value="Orthopedics">
+                   <label for="department3">Orthopedics</label><br>
+                   <input type="checkbox" id="department4" name="departments" value="Ophthalmology">
+                   <label for="department4">Ophthalmology</label><br>
+                   <input type="checkbox" id="department5" name="departments" value="General Issues">
+                   <label for="department5">General Issues</label><br>
+               </div>
+               <div class="form-group">
+                   <label for="date">Date:</label>
+                   <input type="date" id="date" required>
+               </div>
+               <div class="form-group">
+                   <label for="time">Time:</label>
+                   <input type="time" id="time" required>
+               </div>
+               <button type="submit"><h3>Register Appointment</h3></button>
+           </form>
+           <!--<div id="signin"></div>-->
+       </div>
+       <button onclick="logout()">Logout</button>
+   </div>
+
+</body>
+<script src="appointment.js"></script>
+</html>

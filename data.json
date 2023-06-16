@@ -1,0 +1,112 @@
+{
+  "mydata": [
+    {
+      "name": "Biswa",
+      "email": "biswa123@gmail.com",
+      "password": "123123",
+      "id": 1
+    },
+    {
+      "name": "sabya",
+      "email": "sabya@gmail.com",
+      "password": "123123",
+      "id": 2
+    },
+    {
+      "name": "Aryaman",
+      "email": "aryaman@gmail.com",
+      "password": "12",
+      "id": 3
+    },
+    {
+      "name": "Ayeshkant",
+      "email": "Ayeshkant@gmail.com",
+      "password": "123123",
+      "id": 4
+    },
+    {
+      "name": "Sambit",
+      "email": "sambit@gmail.com",
+      "password": "123123",
+      "id": 5
+    },
+    {
+      "name": "Biswaranjan Das",
+      "email": "dasbiswaranjan236@gmail.com",
+      "password": "12345",
+      "id": 6
+    },
+    {
+      "name": "barsha",
+      "email": "barsha123@gmail.com",
+      "password": "barshaaaaa",
+      "id": 7
+    },
+    {
+      "name": "gfx",
+      "email": "biswa@123",
+      "password": "67856",
+      "id": 8
+    },
+    {
+      "name": "barsha",
+      "email": "barsha123@gmail.com",
+      "password": "barsha",
+      "id": 9
+    },
+    {
+      "name": "Aryaman Das",
+      "email": "aryaman@gmail.com",
+      "password": "aryaman",
+      "id": 10
+    },
+    {
+      "name": "biswa",
+      "email": "dasbiswa34567@gmail.com",
+      "password": "mmmmmmmm",
+      "id": 11
+    },
+    {
+      "name": "srinuu",
+      "email": "srinu234@gmail.com",
+      "password": "srinuu",
+      "id": 12
+    },
+    {
+      "name": "biswabiswa",
+      "email": "biswa567@gmail.com",
+      "password": "12345",
+      "id": 13
+    },
+    {
+      "name": "biswa das",
+      "email": "raja@gmail.com",
+      "password": "raja",
+      "id": 14
+    },
+    {
+      "name": "poiuytr",
+      "email": "poiuyt@gmail.com",
+      "password": "0987654",
+      "id": 15
+    },
+    {
+      "name": "biswaaaaaaaa",
+      "email": "biswa@gmail.com",
+      "password": "biswaa",
+      "id": 16
+    },
+    {
+      "name": "biswaaaaaa",
+      "email": "biswadas@gmail.com",
+      "password": "biswa",
+      "id": 17
+    },
+    {
+      "name": "ertyuiop",
+      "email": "ertyuiop@gmail.com",
+      "password": "234567890",
+      "id": 18
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Information</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: larger;
+      background-color: #fcfafa;
+      margin: 0px;
+    
+    }
+
+    .container {
+      width: 400px;
+      
+      margin: 100px;
+      padding: 50px;
+      background-color: #37b5be;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      text-align: left;
+      position: absolute ;
+      left:40% ;
+      transform: translateX(-50%);
+      
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    .contact-info {
+      margin-bottom: 20px;
+      color: rgb(21, 46, 49);
+      font-size: larger;
+    }
+
+    .feedback-form {
+      text-align: left;
+      
+    }
+
+    .feedback-form textarea {
+      width: 400px;
+      height: 100px;
+      padding: 0px;
+      margin-bottom: 10px;
+      border: 3px solid #ccc;
+      border-radius: 4px;
+      font-size: 20pt;
+
+    }
+
+    .feedback-form button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .feedback-form button:hover {
+      background-color: #0a0d13;
+      
+        
+    }
+    body{
+        background-image: url("doctor.jpg");
+        background-repeat: no-repeat;
+    }
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #090909;
+    height: 70px;
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+    display: block;
+    color: rgba(38, 183, 183, 0.995);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 35px;
+  }
+  
+  li a:hover {
+    background-color: #f9f3f3;
+  }
+ 
+.logo img {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(249, 247, 247);
+    float: right;
+  }  
+  </style>
+</head>
+<body>
+  
+  <ul> 
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="cont.html">Contact</a></li>
+    <li><a href="info.html">About</a></li>
+    <!--<li><a href="appoinment.html">Appointment</a></li>-->
+
+    
+    <div class="logo">
+        <img src="Logo.png" alt="Doctor Appointment Portal Logo">
+
+    </ul>
+  </div>
+  <div class="container">
+    <h1 >Contact Information</h1>
+    <div class="contact-info">
+
+      <p>Helpline Number: 1234567890</p>
+      <p>Helpline Email: helpline@example.com</p>
+    </div>
+
+    <div class="feedback-form">
+      <h2>Feedback</h2>
+      <form action="submit-feedback.php" method="POST"> 
+        <textarea name="feedback" placeholder="Enter your feedback here" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
